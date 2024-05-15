@@ -5,14 +5,11 @@ This repository contains SQL scripts for creating and managing a library databas
 #### Project Overview
 The goal of this project is to create a structured and efficient library management system using SQL. The database is designed to store information about books, members, librarians, and book issues, with capabilities for performing various operations and queries.
 
-### Contents
-- **Create Database and Tables**: SQL script to create the `library` database and tables for `Book`, `Member`, `Librarian`, and `Issues`.
-- **Data Insertion**: Scripts to insert initial data into the `Book`, `Member`, `Librarian`, and `Issues` tables.
-- **Select Queries**: Example queries to retrieve specific information from the database.
-- **Views**: Scripts to create views for easier access to specific data sets.
-- **Indexing**: Scripts to create indexes for improving query performance.
+#### Contents
+- **Library Management.pptx**: A PowerPoint presentation that details the library management system. It includes an overview of the project, the database schema, and key features of the system.
+- **Library script.sql**: The SQL script for creating the library database, including table creation, data insertion, select queries, view creation, and indexing.
 
-### Detailed Description
+#### Detailed Description
 
 1. **Database and Tables Creation**
     - **Book**: Stores information about books, including `book_id`, `book_name`, `book_author`, and `book_price`.
